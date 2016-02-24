@@ -2,13 +2,13 @@ UrlMark
 =======
 
 
+Write yourself a home page with bookmarks well-organized,
+browser-agnostic and easy-to-share.
+
+
 Click here_ if you are eager to see the code.
 
 .. _here: https://github.com/NoviceLive/urlmark/blob/gh-pages/urlmark/main.py#L21
-
-
-Write yourself a home page with bookmarks well-organized,
-browser-agnostic and easy-to-share.
 
 
 Demo Site
@@ -40,6 +40,10 @@ Brainstorm & TODO
 
 - Mobile view (i.e. responsive or not)?
 
+- Does it look good?
+
+- Write some fantastic themes (a.k.a templates)?
+
 
 .. _cym13/bookmark: https://github.com/cym13/bookmark
 
@@ -47,4 +51,4 @@ Brainstorm & TODO
 Disclaimer
 ----------
 
-Links in example ``left.md`` and ``right.md`` are highly personal.
+Bookmarks in example ``left.md`` and ``right.md`` are highly personal.
