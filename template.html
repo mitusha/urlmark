@@ -23,8 +23,13 @@ along with UrlMark.  If not, see <http://www.gnu.org/licenses/>.
   <head>
     <meta charset="utf-8">
     <title>Online Bookmarks</title>
-    <link rel="stylesheet" href="foundation-6/css/foundation.css" />
-    <link rel="stylesheet" href="foundation-6/css/app.css" />
+
+    <link
+       rel="stylesheet"
+       crossorigin="anonymous"
+       integrity="sha256-r0wcIKU1PTJnW/DiYo5WDIEkG2YDqX5/iN/Ez2xEI/Q="
+       href="https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css">
+
   </head>
   <body style="background-color: #303030; color: #00ff00">
     <nav class="top-bar" data-topbar role="navigation">
@@ -72,9 +77,19 @@ along with UrlMark.  If not, see <http://www.gnu.org/licenses/>.
     </p>
 
 
-    <script src="foundation-6/js/vendor/jquery.min.js"></script>
-    <script src="foundation-6/js/vendor/what-input.min.js"></script>
-    <script src="foundation-6/js/foundation.min.js"></script>
-    <script src="foundation-6/js/app.js"></script>
+    <script
+       crossorigin="anonymous"
+       integrity="sha256-ImQvICV38LovIsvla2zykaCTdEh1Z801Y+DSop91wMU="
+       src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js">
+    </script>
+
+    <script
+       crossorigin="anonymous"
+       integrity="sha256-TtdCGlgVTEs/WjZZF+ZkbB6Hk7n2/x6aiTBOEpOaoYs="
+       src="https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.js">
+    </script>
+
+    <script>$(document).foundation();</script>
+
   </body>
 </html>
